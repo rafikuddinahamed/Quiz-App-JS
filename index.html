@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dom</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<div class="quiz-container">
+    <div id="quiz">
+        <!--For Question-->
+        <div id="question">
+        </div>
+
+        <!--For Choices-->
+        <div class="choices">
+
+            <button class="choice" onclick="selectAnswer(0)"></button>
+
+            <button class="choice" onclick="selectAnswer(1)"></button>
+
+            <button class="choice" onclick="selectAnswer(2)"></button>
+
+            <button class="choice" onclick="selectAnswer(3)"></button>
+        </div>
+
+        <button id="nextButton"  onclick="nextQuestion()">Next Question</button>
+
+        <div id="scoreContainer"></div>
+    </div>
+</div>
+
+
+
+
+
+
+<script src="index.js"></script>
+</body>
+</html>
